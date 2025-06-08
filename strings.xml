@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyFirstProject</string>
+    <string name="WeightEdt">Enter your Weight</string>
+    <string name="Height_Ft_Edt">Enter your Height(In ft) </string>
+    <string name="Height_In_Edt">Enter your Height(in Inch) </string>
+
+    <string name="Button">BMI</string>
+
+    <string name="Result">Result</string>
+
+</resources>

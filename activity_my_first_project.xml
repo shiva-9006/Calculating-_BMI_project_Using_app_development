@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/peach"
+    tools:context=".MyFirstProject"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <!--BMI PROJECT -->
+
+    <!--    This is for weight-->
+
+
+    <EditText
+        android:id="@+id/Editwt"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/WeightEdt"
+       />
+
+
+    <!-- This is for height in Ft !!!!!-->
+
+    <EditText
+        android:id="@+id/EdtHeightFt"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/Height_Ft_Edt"
+        android:layout_marginTop="12dp" />
+
+
+
+    <!-- This is for height in Inch -->
+
+    <EditText
+        android:id="@+id/editHeight_In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/Height_In_Edt"
+        android:layout_marginTop="12dp" />
+
+
+<!-- This is for BMI button -->
+
+    <Button
+        android:id="@+id/CalculateBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00E5FF"
+        android:text="@string/Button"
+        android:layout_marginTop="12dp"
+        />
+
+    <!-- This is for showing the result !!!!!!!!!!-->
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Result"
+        android:textAllCaps="true"
+
+
+        android:layout_marginTop="12dp"
+        />
+
+
+
+
+</LinearLayout>
